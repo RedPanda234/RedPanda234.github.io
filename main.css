@@ -1,0 +1,26 @@
+#what {
+    color:red;
+}
+
+#headerImage {
+    margin-left: 0px;
+    margin-right: 0px
+}
+
+#imageText {
+    font-size: 90px;
+    color: darkorchid;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
