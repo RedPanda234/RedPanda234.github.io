@@ -24,3 +24,20 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.facts{
+    background-color: #9ED66E
+}
+
+.links{
+    background-color: #6B8654;
+    border-style: solid;
+    border-color: #6B8654;
+    border-width: 20px;
+}
+
+.link{
+    padding-right: 5px;
+    border-color: black;
+    border-right: solid;
+}
