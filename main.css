@@ -1,3 +1,7 @@
+body{
+    background-color: #9AFF97
+}
+
 #what {
     color:red;
 }
@@ -25,8 +29,10 @@
     transform: translate(-50%, -50%);
 }
 
-.facts{
-    background-color: #9ED66E
+.Information{
+    background-color: #2EC24D;
+    padding: 0px 50px 5px 50px ;
+
 }
 
 .links{
@@ -40,4 +46,14 @@
     padding-right: 5px;
     border-color: black;
     border-right: solid;
+}
+
+.Headers{
+    background-color: #25C029;
+    padding: 0px 50px 0px 20px;
+    color: #000000
+}
+
+a{
+    color: red
 }
