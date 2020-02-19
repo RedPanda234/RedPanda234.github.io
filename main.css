@@ -31,7 +31,8 @@ body{
 
 .Information{
     background-color: #2EC24D;
-    padding: 0px 50px 5px 50px ;
+    padding: 0px 20% 5px 20% ;
+    
 
 }
 
@@ -56,4 +57,8 @@ body{
 
 a{
     color: red
+}
+
+#BodyImage{
+    padding-top: 30px;
 }
