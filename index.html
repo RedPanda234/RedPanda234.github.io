@@ -1,5 +1,20 @@
 <!DOCTYPE html>
 <html>
+    <script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+    </script>
     <link href="main.css" rel="stylesheet"
     <body margin: 0px>
         <div class="container">
@@ -8,7 +23,7 @@
             <div class="centered" id="imageText">Red Pandas</div>
             </h1>
         </div>
-        <div class="links">
+        <div class="links" class="header" id="myHeader">
         <a href="#Facts" class="link">Facts</a>
         <a href="#Class" class="link">Classification and Taxonomy</a>
         <a href="Sources.html" class="link">Sources</a>
@@ -17,9 +32,15 @@
             <h2 class="Headers" id="Facts">Facts</h2>
                 <p style="text-indent: 40px" >The Population of Red Panda has decreased by over 50% in the last 20 years! The relatives of the Red Panda are all extinct, meaning that the Red Panda has no living relatives. The Red Panda live in parts of China and Nepal. The main problems facing the Red Panda are deforestation and hunting. The Red Panda eats bamboo leaves and other small leaves and berries. The Red Panda is a little bigger than a house cat.</p>
         </div>
-        <img src="Images/Cute%20Baby%20Panda.jpg" alt="Cute Baby Red Panda" style="width: 100%" id="BodyImage">
-        <div class="Information">
+        <img src="Images/Cute%20Baby%20Panda.jpg" alt="Cute Baby Red Panda" id="BodyImage">
+        <div class="CT">
             <h2 class="Headers"  id="Class">Classifcation and Taxonomy</h2>
+            <h3>Kingdom</h3>
+            <h4>Animalia</h4>
+            <h3>Phylum</h3>
+            <h4>Chordata</h4>
+            <h3>Class</h3>
+            <h4>Mammalia</h4>
         </div>
     </body>
 </html>
